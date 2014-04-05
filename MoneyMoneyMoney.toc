@@ -2,5 +2,6 @@
 ## Title: Money Money Money
 ## Notes: Sharparam is a tool
 ## Version: 0.0.0
+## SavedVariables: MoneyMoneyMoneyDB
 
 MoneyMoneyMoney.lua
