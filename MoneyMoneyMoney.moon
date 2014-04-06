@@ -13,7 +13,7 @@ class HierarchicalDB
 
 MoneyMoneyMoney =
   Name: "MoneyMoneyMoney"
-  Version: GetAddOnMetadata("KillTrack", "Version")
+  Version: GetAddOnMetadata("MoneyMoneyMoney", "Version")
   Frame: CreateFrame "Frame"
   Broker: nil
   DB: nil
