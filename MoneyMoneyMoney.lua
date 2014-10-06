@@ -68,9 +68,9 @@ MoneyMoneyMoney = {
       return print("MMM: Got " .. tostring(delta) .. " from unknown source.")
     end
   end,
-  Expect = function(self, source, amount)
+  Expect = function(self, category, amount)
     self.Expected[#self.Expected + 1] = {
-      Source = source,
+      Category = category,
       Amount = amount
     }
     return print("MMM: Expecting " .. tostring(amount) .. " from " .. tostring(source))

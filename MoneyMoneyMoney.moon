@@ -43,8 +43,8 @@ MoneyMoneyMoney =
             return
       print "MMM: Got #{delta} from unknown source."
 
-  Expect: (source, amount) =>
-    @Expected[#@Expected + 1] = Source: source, Amount: amount
+  Expect: (category, amount) =>
+    @Expected[#@Expected + 1] = Category: category, Amount: amount
     print "MMM: Expecting #{amount} from #{source}"
 
   CurrentGold: 0
